@@ -1,4 +1,4 @@
- :root {
+:root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -51,10 +51,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; 
-  overflow: hidden
-  
-
+  background-color: #fff;
+  overflow-x: hidden; 
  }
 
 [tabindex="-1"]:focus {
