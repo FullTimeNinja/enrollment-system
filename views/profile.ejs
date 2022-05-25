@@ -1,0 +1,43 @@
+<%- include('partials/header')  %> 
+
+    <h1>Profile</h1>
+    
+    <p>Profile shows the <i>THE LIST OF THE SUBJECTS</i> of the student taken on a certain year.</p>
+
+
+    <table class="table table-dark tbl-sub">
+      <thead>
+        <tr>
+          <th scope="col">SUBJECT TITLE</th>
+          <th scope="col">SUBJECT CODE</th>
+        </tr>
+      </thead>
+
+      <!-- <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+         
+        </tr>
+       
+      </tbody> -->
+
+        
+      <% subjects.forEach( (subject) => { %>
+          <tbody>
+            <tr>
+              <th><%= subject.title  %> </th>
+              <td><%= subject.code %> </td>
+            </tr>
+
+          </tbody>
+      <% }) %>
+    </table>
+
+
+
+  <%- include('partials/footer')  %> 

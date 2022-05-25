@@ -1,0 +1,8 @@
+student enrollment
+
+let student add 
+change 
+delete subject
+
+
+
